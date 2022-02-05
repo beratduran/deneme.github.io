@@ -1,0 +1,102 @@
+Anasayfa Html Metin Kodları ; <html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta http-equiv="content-type" content="text/html; charset=windows-1254"/>
+ <link href="style.css" rel="stylesheet" />
+ <title>Melike Aras</title>
+</head>
+<body>
+ <div class="buyuk-resim">
+ <small style="cursor:pointer; position:absolute; color:white; padding:10px 0 0 10px;" onclick="Kapat()">kapat</small>
+ <img src="images/melike.jpg" />
+ </div>
+ <div class="ana-div">
+ <!--Logo, Başlık ve sosyal medya linklerini içerir-->
+ <div class="ust-alan">
+ <div class="logo">
+ <a href="index.html">
+ <img src="images/logo.png" />
+ </a>
+ </div>
+ <div class="baslik">
+ <a href="index.html">
+ <h1>Melike Aras</h1>
+ <i>Grafiker</i>
+ </a>
+ </div>
+ <div class="sosyal-medya">
+ <ul>
+ <li>
+ <a href="twitter.com" target="_blank">
+ <img src="images/twitter.png" />
+ </a>
+ </li>
+ <li>
+ <a href="instagram.com" target="_blank">
+ <img src="images/instagram.png" />
+ </a>
+ </li>
+ </ul>
+ <div class="clear"></div>
+ </div>
+ <div class="clear"></div>
+ </div>
+ <div class="menu">
+ <ul>
+ <li>
+ <a href="index.html">ANASAYFA</a>
+ </li>
+ <li>
+ <a href="hakkimda.html">HAKKIMDA</a>
+ </li>
+ <li>
+ <a href="referans.html">REFERANSLAR</a>
+ </li>
+ <li>
+ <a href="egitim.html">EĞİTİM</a>
+ </li>
+ <li>
+ <a href="iletisim.html">İLETİŞİM</a>
+ </li>
+ <li>
+ <a href="https://www.arel.edu.tr/" target="_blank">AREL ÜNİVERSİTESİ</a>
+ </li>
+ <li>
+ <a href="sertifika.pdf">CV</a>
+ </li>
+ <li>
+ <a href="mailto:melikearasedu@gmail.com">MAIL</a>
+ </li>
+ </ul>
+ <div class="clear"></div>
+ </div>
+ <!--İçerik Başlar-->
+ <div>
+ <div class="anasayfa-metin">
+ <p><b>Ben Melike Aras;</b> Küçüklüğümden beri içinde tasarım olan her şeye ilgi duyardım ve sürekli incelerdim. <u>Lisede bu 
+ilgimi fark ettim ve GRAFİK TASARIM bölümüne yazıldım.</u> Şuan Üniversitedeyim.</p>
+ <br />
+ <p>Yaklaşık 2 yıldır freelance olarak tasarımlar yapıyorum. Bu konuda <font>kendime güveniyorum ve severek yapıyorum.</font>.
+Bu olayın en güzel yanı yaptığınız tasarımları uygulamaya dökmek. Karşınızda görmek çok haz verici.</p>
+ <br />
+ <p>Şu an okulumun bitmesine birkaç ayım kaldı. Bu mesleğin okulu kendisi kadar eğlenceli.</p>
+ </div>
+ <div class="anasayfa-gorsel">
+ <img src="images/melike.jpg" width="200" />
+ <br />
+ <small onclick="Buyut();" style="cursor:pointer;">resmi büyüt</small>
+ </div>
+ <div class="clear"></div>
+ </div>
+ <!--Alt Alan-->
+ <div class="alt-alan">Tüm hakları saklıdır. © melikearas.com</div>
+ </div>
+ <script type="text/javascript">
+ function Buyut() {
+ document.getElementsByClassName('buyuk-resim')[0].style.display = 'block';
+ }
+ function Kapat() {
+ document.getElementsByClassName('buyuk-resim')[0].style.display = 'none';
+ }
+ </script>
+</body>
+</html>
